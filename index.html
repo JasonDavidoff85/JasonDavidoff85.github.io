@@ -1,240 +1,121 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Jason Davidoff</title>
-        <!-- Bootstrap -->
-        <!-- <link href="../css/bootstrap.css" rel="stylesheet"> -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/custom.css" rel="stylesheet">
-        
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    </head>
-        
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SongBook</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-item.css" rel="stylesheet">
+
+  </head>
+
+  <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jason Davidoff</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#blog">Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">SongBook</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container -->
+      </div>
     </nav>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="myName">Jason Davidoff</h1>
-                    <h2>Full Stack Developer</h2>
-                    
-                    <!--<a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> -->
-                </div>
-            </div>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3">
+          <h1 class="my-4">Follower Feed</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">My Profile</a>
+            <a href="#" class="list-group-item">My Playlists</a>
+            <a href="#" class="list-group-item">My Friends</a>
+          </div>
         </div>
-    </section>
+        <!-- /.col-lg-3 -->
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="move">About Me</h2>
-                    <img src="pictures/avatar.jpg" class="img-circle" alt="avatar" width="200" height="200">
-                    
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h4><strong>Student at Saint Peters Prep</strong></h4>
-                          <p>Education at a college prepatory school has prepared me for the challenges ahead.</p>
+        <div class="col-lg-9">
 
-                            <h4><strong>Software Developer</strong></h4>
-                          <p>Interested in building software on all levels and aspects.</p>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <h4><strong>Eagle Scout</strong></h4>
-                          <p>My 6 year+ Boy Scout experience has shaped me to be prepared.</p>
-
-                          <h4><strong>Profession Ready</strong></h4>
-                          <p>Already has professional field experience in development.</p>
-                        </div>
-                      </div>
-                    
-                </div>
+          <div class="card mt-4">
+            <img class="card-img-top img-fluid" src="playbutton.png" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Derniere Danse</h3>
+              <h5>Indila</h5>
+              <p class="card-text"></p>
+              <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              4.0 stars
             </div>
+          </div>
+          <!-- /.card -->
+
+          <div class="card card-outline-secondary my-4">
+            <div class="card-header">
+              Product Reviews
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+              <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+              <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+              <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+              <hr>
+              <a href="#" class="btn btn-success">Leave a Review</a>
+            </div>
+          </div>
+          <!-- /.card -->
+
         </div>
-    </section>
+        <!-- /.col-lg-9 -->
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h1 class="move">Projects</h1>
-            <div class="row">   
-                <div class="col-lg-6">
-                    <h1>Photography Showcase</h1>
-                    <div class="container1">
-                        <a href="photography.html">
-                        <img src="images/bridgeCity.jpg" class="image">
-                        <div class="overlay">
-                            <div class="text">Click Here</div>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h1>Github</h1>
-                    <a href="https://github.com/JasonDavidoff85" target="_blank">
-                        <img src="pictures/github-sociocon.png">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+      </div>
 
-    <!-- Blog Section -->
-    <section id="blog" class="blog-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    
-                </div>
-                <div class="col-lg-1">
-                    <h1>Blog</h1>
-                </div>
-                <div class="col-lg-1">
-                    <a href="#" target="_blank">
-                        <img src="pictures/blog1600.png" height="100px" width="100px">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <h3>Most recent blog post</h3>
-                <div class="col-lg-4">
-                </div>
-                <div class="col-lg-4">
-                    <div class="panel-group">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">Movie Review: Two Brothers: </div>
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="pictures/twobros.jpg" width="125px" height="200px">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <p>A Mexican armada shows up. With weapons made from Two--tomatoes. And you better bet your bottom dollar that these two brothers know how to handle business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-        
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="move">Resume</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <a href="#toResume">
-                        <img src="pictures/pdf.png">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-        
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h1 class="move">Contact me on</h1>
-            <div class="row">
-                <div class="col-lg-4">
-                    <h1>Facebook</h1>
-                    <a href="https://www.facebook.com/jason.davidoff.16" target="_blank">
-                        <img src="pictures/facebook-png-icon-follow-us-facebook-1.png" height="250px" width="250">
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <h1>Linkedin</h1>
-                    <a href="https://www.linkedin.com/in/jason-d-38588510b/" target="_blank">                        
-                    <img src="pictures/linkedin-512.png" height="250px" width="250">
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <h1>Email</h1>
-                    <a href="mailto:jasondavidoff85@gmail.com">
-                        <img src="pictures/email-icon.png" height="250px" width="250">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-        
-        <footer>
-            
-            <p><small>&copy; Copyright 2017 Jason Davidoff</small></p>
-        </footer>
+    </div>
+    <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+  </body>
 
-</body>
-    
-    
-    
 </html>
