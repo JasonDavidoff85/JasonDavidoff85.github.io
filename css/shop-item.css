@@ -12,6 +12,10 @@ html body {
     background-color: #55A6B4 !important;
 }
 
+.my-4 {
+    color: aliceblue !important;
+}
+
 body {
   padding-top: 54px;
 }
