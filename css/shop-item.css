@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
  */
 
+.navbar {
+    background-color: #F8604D !important;
+    border-color: #E7E7E7;
+}
+html body {
+    background-color: #55A6B4 !important;
+}
+
 body {
   padding-top: 54px;
 }
