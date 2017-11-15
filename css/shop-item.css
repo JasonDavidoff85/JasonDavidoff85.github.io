@@ -5,17 +5,17 @@
  */
 
 .navbar {
-    background-color: #F5F6F7 !important;
+    background-color: dimgray!important;
     border-color: #E7E7E7;
 }
 html body {
     background-color: #55A6B4 !important;
 }
 .navbar-brand {
-    color: dimgray!important;
+    color: #F8604D !important;
 }
 .nav-link {
-    color: dimgray!important;
+    color: white !important;
 }
 
 .my-4 {
