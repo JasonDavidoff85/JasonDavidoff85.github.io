@@ -5,14 +5,14 @@
  */
 
 .navbar {
-    background-color: dimgray!important;
+    background-color: dimgray !important;
     border-color: #E7E7E7;
 }
 html body {
     background-color: #55A6B4 !important;
 }
 .navbar-brand {
-    color: #F8604D !important;
+    color: #55A6B4 !important;
 }
 .nav-link {
     color: white !important;
